@@ -13,6 +13,7 @@ jobs:
       - name: Checkout kernel source
         uses: actions/checkout@v4
         with:
+          submodules: recursive
           fetch-depth: 1
 
       # ── 2. Dependências do sistema ─────────────────────────────────────────
